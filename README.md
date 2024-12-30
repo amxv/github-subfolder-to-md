@@ -26,17 +26,20 @@ source ~/.zshrc  # or source ~/.bashrc
 ```
 
 Example:
+
 ```bash
-~/github-subfolder-to-md.sh https://github.com/openai/openai-cookbook/tree/main/articles
+~/github-subfolder-to-md.sh https://github.com/remix-run/react-router/tree/main/docs
 ```
 
 This creates a combined markdown file named `username-repo-foldername-combined.md` in your current directory.
 
 ## Dependencies
+
 - curl
 - jq
 - unzip
 - tree
 
 ## License
+
 MIT
