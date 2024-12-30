@@ -22,12 +22,12 @@ source ~/.zshrc  # or source ~/.bashrc
 ## Usage
 
 ```bash
-./github-subfolder-to-md.sh https://github.com/username/repo/tree/branch/subfolder-path
+~/github-subfolder-to-md.sh https://github.com/username/repo/tree/branch/subfolder-path
 ```
 
 Example:
 ```bash
-./github-subfolder-to-md.sh https://github.com/openai/openai-cookbook/tree/main/articles
+~/github-subfolder-to-md.sh https://github.com/openai/openai-cookbook/tree/main/articles
 ```
 
 This creates a combined markdown file named `username-repo-foldername-combined.md` in your current directory.
