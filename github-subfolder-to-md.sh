@@ -57,7 +57,7 @@ echo '```' >> "$COMBINED_MD"
 echo -e "\n## Documentation Contents\n" >> "$COMBINED_MD"
 
 # Find and combine markdown files
-find "$OUTPUT_DIR" -type f -name "*.md" | while read -r file; do
+find "$OUTPUT_DIR" -type f \( -name "*.md" -o -name "*.mdx" \) | while read -r file; do
     rel_path=${file#"$OUTPUT_DIR/"}
     echo -e "\n-- $rel_path:\n" >> "$COMBINED_MD"
     echo '```markdown' >> "$COMBINED_MD"
