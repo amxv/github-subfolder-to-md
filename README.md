@@ -42,4 +42,4 @@ This creates a combined markdown file named `username-repo-foldername-combined.m
 
 ## License
 
-MIT
+Apache 2.0
